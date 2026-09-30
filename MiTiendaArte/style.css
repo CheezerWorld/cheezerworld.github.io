@@ -1,0 +1,301 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f5f0e8;
+
+    color: #111111;
+
+}
+
+
+/* MENÚ */
+
+header {
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 10;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 25px 50px;
+
+    background-color: #f5f0e8;
+
+}
+
+
+header h1 {
+
+    margin: 0;
+    font-size: 24px;
+    color: black;
+
+}
+
+
+nav {
+
+    display: flex;
+
+    gap: 30px;
+
+}
+
+
+nav a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+}
+
+
+/* PORTADA */
+
+.hero {
+
+    min-height: 90vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+}
+
+
+.hero h2 {
+
+    font-size: 100px;
+
+    line-height: 0.85;
+
+    margin: 20px 0;
+
+}
+
+
+.hero p {
+
+    font-size: 20px;
+
+}
+
+
+.pequeno {
+
+    font-size: 12px;
+
+    letter-spacing: 4px;
+
+}
+
+
+/* BOTÓN */
+
+.boton {
+
+    margin-top: 30px;
+
+    padding: 16px 30px;
+
+    background-color: #111111;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 13px;
+
+}
+
+
+/* TIENDA */
+
+.tienda {
+
+    padding: 120px 50px;
+
+}
+
+
+.tienda h2 {
+
+    font-size: 60px;
+
+    margin-top: 10px;
+
+}
+
+
+.productos {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+
+    margin-top: 60px;
+
+}
+
+
+.imagen-producto {
+
+    height: 400px;
+
+    background-color: #ddd5c8;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 30px;
+
+}
+
+
+.producto h3 {
+
+    margin-bottom: 5px;
+
+}
+
+
+.producto p {
+
+    margin-top: 0;
+
+}
+
+
+.producto button {
+
+    padding: 12px 25px;
+
+    border: none;
+
+    background-color: #111111;
+
+    color: white;
+
+    cursor: pointer;
+
+}
+
+
+/* SOBRE MÍ */
+
+.sobre-mi {
+
+    padding: 150px 20%;
+
+}
+
+
+.sobre-mi h2 {
+
+    font-size: 70px;
+
+}
+
+
+.sobre-mi p:last-child {
+
+    font-size: 22px;
+
+    line-height: 1.5;
+
+}
+
+
+/* CONTACTO */
+
+.contacto {
+
+    padding: 150px 50px;
+
+    text-align: center;
+
+}
+
+
+.contacto h2 {
+
+    font-size: 70px;
+
+}
+
+
+/* FOOTER */
+
+footer {
+
+    padding: 50px;
+
+    text-align: center;
+
+    border-top: 1px solid #111111;
+
+}body {
+    background-color: transparent !important;
+    background-image: url("imagenes/FONDO WEB.png") !important;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("imagenes/FONDO WEB.png");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+/* TEXTO BLANCO */
+header h1,
+header nav a,
+nav a {
+    color: white !important;
+}
+
+.productos h2,
+.productos h3,
+.productos p {
+    color: white !important;
+}
