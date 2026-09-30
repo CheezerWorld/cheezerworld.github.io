@@ -299,3 +299,82 @@ nav a {
 .productos p {
     color: white !important;
 }
+/* VERSION MOVIL */
+
+@media (max-width: 700px) {
+
+    header {
+        padding: 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    nav {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    .hero {
+        min-height: 80vh;
+        padding: 30px 20px;
+    }
+
+    .hero h2 {
+        font-size: 55px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .tienda {
+        padding: 80px 20px;
+    }
+
+    .tienda h2 {
+        font-size: 42px;
+    }
+
+    .productos {
+        grid-template-columns: 1fr;
+        gap: 50px;
+        margin-top: 40px;
+    }
+
+    .imagen-producto {
+        height: 350px;
+    }
+
+    .sobre-mi {
+        padding: 100px 25px;
+    }
+
+    .sobre-mi h2 {
+        font-size: 48px;
+    }
+
+    .sobre-mi p:last-child {
+        font-size: 18px;
+    }
+
+    .contacto {
+        padding: 100px 20px;
+    }
+
+    .contacto h2 {
+        font-size: 48px;
+    }
+
+    footer {
+        padding: 35px 20px;
+    }
+}
