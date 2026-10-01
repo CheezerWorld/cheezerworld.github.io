@@ -21,17 +21,15 @@
 
     <header>
 
-        <h1>CHEEZER</h1>
+        <h1>CHEEZER™</h1>
 
         <nav>
 
-            <a href="#inicio">Inicio</a>
+            <a href="#inicio">INICIO</a>
 
-            <a href="#tienda">Tienda</a>
+            <a href="#tienda">TIENDA</a>
 
-            <a href="#sobre-mi">Sobre mí</a>
-
-            <a href="#contacto">Contacto</a>
+            <a href="#contacto">CONTACTO</a>
 
         </nav>
 
@@ -67,7 +65,8 @@
 
             <p class="pequeno">SHOP</p>
 
-            <h2>Mis productos</h2>
+            <h2>Productos</h2>
+            
 
 
             <div class="productos">
@@ -78,11 +77,8 @@
                 <article class="producto">
 
                     <div class="imagen-producto">
-                        CHEEZER
+                    <img src="imagenes/DISEÑO CAMISETA 1.jpg" alt="Camiseta Cheezer & Razz">
                     </div>
-
-                    <h3>Cheezer Print</h3>
-
                     <p>15 €</p>
 
                     <button>COMPRAR</button>
@@ -99,7 +95,7 @@
                         RAZZ
                     </div>
 
-                    <h3>Razz Print</h3>
+                    <h3>>Gorra Plana "Sewer"</h3>
 
                     <p>15 €</p>
 
@@ -117,9 +113,9 @@
                         ART
                     </div>
 
-                    <h3>Art Print</h3>
+                    <h3>Poster Cheezer & Razz </h3>
 
-                    <p>15 €</p>
+                    <p>7 €</p>
 
                     <button>COMPRAR</button>
 
@@ -138,13 +134,11 @@
 
             <p class="pequeno">ABOUT</p>
 
-            <h2>Mi mundo.</h2>
+            <h2>Merchandising</h2>
 
             <p>
 
-                Soy artista e ilustrador y creo personajes,
-                ilustraciones y objetos que forman parte
-                de mi propio universo.
+                Artículos artesanos de moda y arte.
 
             </p>
 
@@ -156,34 +150,33 @@
 
         <section id="contacto" class="contacto">
 
-            <p class="pequeno">CONTACT</p>
+            <p class="pequeno">Roqueefort Studios</p>
 
-            <h2>Hablemos.</h2>
-
-            <p>
-                Instagram: @tuinstagram
-            </p>
+            <h2>Contáctanos.</h2>
 
             <p>
-                Email: tuemail@email.com
-            </p>
-
+                Instagram: @cheezer.world
+   
         </section>
 
 
     </main>
 
-
-
     <!-- PIE DE PÁGINA -->
-
     <footer>
-
         <p>© 2026 CHEEZER</p>
-
     </footer>
 
+<script>
+window.addEventListener('scroll', function () {
+    const scroll = window.pageYOffset;
+    const fondo = document.querySelector('.fondo');
+
+    if (fondo) {
+        fondo.style.transform = `translateY(${scroll * 0.3}px)`;
+    }
+});
+</script>
 
 </body>
-
 </html>
